@@ -1,2 +1,2 @@
 # odin_loginform
-A login form for an imagingary service
+A login form for an imaginary service
