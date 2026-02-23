@@ -1,0 +1,178 @@
+@import url(https://db.onlinewebfonts.com/c/7d460b18433753a097e5bc2bad7c8dd9?family=Norse+Bold);
+
+
+body {
+    display: flex;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, Helvetica, sans-serif;
+}
+
+
+/* page left */
+
+
+.page_left {
+    background-image: url("assets/halie-west-25xggax4bSA-unsplash.jpg");
+    height: 100vh;
+    min-width: 35%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+.credit_footer {
+    align-self: center;
+    color: white;
+    margin-top: auto;
+    margin-bottom: 1vh;
+    
+}
+
+.credit_footer a {
+    color: white;
+}
+
+.logo_wrapper {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 23vh;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    
+}
+
+img {
+    height: 150px;
+}
+
+.logo h1 {
+    font-family: "Norse Bold";
+    font-size: 10vh;
+    margin: 3vh 0 3vh;
+    color: white;
+}
+
+
+/* page right */
+
+
+.page_right {
+    display: flex;
+    flex-direction: column;
+    padding-top: 12vh;
+    background-color: #f5f5f5;
+}
+
+.text_content {
+    padding-left: 5vh;
+    font-size: 2.5vh;
+    padding-right: 15vh;
+    padding-bottom: 5vh;
+    font-weight: 500;
+    word-spacing: .15ch;
+}
+
+.form {
+    background-color: #ffffff;
+    padding-left: 5vh;
+    padding-right: 30vh;
+    padding-bottom: 5vh;
+    box-shadow: 0 10px 15px #e5e7eb
+}
+
+.form h2 {
+    font-size: 2.5vh;
+    font-weight: 500;
+    word-spacing: .15ch;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form_row {
+    display: flex;
+    gap: 40px;
+}
+
+.form_group {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 5px;
+}
+
+label {
+    letter-spacing: .2ch;
+}
+
+input {
+    display: block;
+    font-family: inherit;
+    font-size: 100%;
+    margin: 0;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px 12px;
+    height: 30px;
+    border: 1px solid #E5E7EB;
+    border-radius: 5px;
+    appearance: none;
+    padding: 15px;
+}
+
+input:focus {
+    border-color: #2563EB;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.3);
+    outline: none;
+}
+
+input:invalid {
+    border-color: red;
+}
+
+
+/* account creation  */
+
+
+.account_creation {
+    font-size: 1.8vh;
+    padding-left: 5vh;
+
+}
+
+.account_creation a {
+    color: #596D48;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+button {
+    color: white;
+    background-color: #596D48;
+    border: none;
+    padding: 20px 60px;
+    font-size: 1.8vh;
+    border-radius: 10px;
+    font-weight: 700;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.3);
+}
+
+button:hover {
+    color: #596D48;
+    background-color: white;
+}
+
+button:focus {
+    color: white;
+    background-color: #596D48;
+}
+
